@@ -19,6 +19,8 @@ public class Ag_Conditionals {
         }
 
 
+
+
         // IF-ELSE STATEMENT:
         int a = 5;
         int b = 7;
@@ -26,6 +28,8 @@ public class Ag_Conditionals {
             System.out.println("A is greater");
         } else
             System.out.println("B is greater");
+
+
 
 
         // IF-ELSE-IF LADDER:
@@ -57,6 +61,7 @@ public class Ag_Conditionals {
         }
 
 
+
         // NESTED IF-ELSE STATEMENT:
         int x = 2;
         int y = 8;
@@ -71,10 +76,12 @@ public class Ag_Conditionals {
         else System.out.println("Y is greatest.");
 
 
+
         // TERNARY OPERATORY:
         int streakDays = 35;
         String status = (streakDays >= 30) ? "Consistent" : "Irregular";
         System.out.println(status);
+
 
 
         // SWITCH STATEMENT:
