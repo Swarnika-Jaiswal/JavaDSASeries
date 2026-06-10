@@ -36,9 +36,13 @@ public class Ae_Operators {
 //  ASSIGNMENT OPERATORS:
         int ratingPoints = 100;
         ratingPoints += 20;
+        System.out.println(ratingPoints);
         ratingPoints -= 10;
+        System.out.println(ratingPoints);
         ratingPoints *= 2;
+        System.out.println(ratingPoints);
         ratingPoints /= 4;
+        System.out.println(ratingPoints);
         ratingPoints %= 30;
         System.out.println(ratingPoints);
 
@@ -87,6 +91,12 @@ public class Ae_Operators {
         int solvedProblems = 320;
         String level = (solvedProblems >= 300) ? "Advanced" : "Intermediate";
         System.out.println(level);
+
+//  instanceof OPERATOR:  (Check whether an object belongs to a particular class or not.)
+//        true → if object belongs to that class
+//        false → otherwise
+        String name = "Swarnika";
+        System.out.println(name instanceof String);
 
 
 //  OPERATOR PRECEDENCE:
