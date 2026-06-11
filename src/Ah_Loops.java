@@ -25,11 +25,12 @@ public class Ah_Loops {
         for (int value = 2; value <= 10; value += 2) {
             System.out.println(value);
         }
-
 //        To print message three times:
         for (int attempt = 1; attempt <= 3; attempt++) {
             System.out.println("Keep practicing!");
         }
+
+
 
 //        WHILE LOOP: (used when number of repetitions is unknown)
         int count = 1;
@@ -44,6 +45,8 @@ public class Ah_Loops {
         do {
             System.out.println("This runs once.");
         } while (score > 50);
+
+
 
 //        NESTED LOOP:
         for (int row = 1; row <= 3; row++) {
@@ -65,6 +68,7 @@ public class Ah_Loops {
             System.out.println("Infinite loop");
         }
  */
+
 
 
 
