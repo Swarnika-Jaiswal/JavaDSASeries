@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class Ai_loop_homework {
+public class Ai_Loop_Practice {
     public static void main(String[] args) {
 
 

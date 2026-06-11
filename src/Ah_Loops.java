@@ -66,8 +66,37 @@ public class Ah_Loops {
            Infinite for Loop:
         for (;;) {
             System.out.println("Infinite loop");
+
         }
  */
+
+
+
+
+//        BREAK KEYWORD:
+        int i = 1;
+        while (i <= 10) {
+            if (i == 6) {
+                break;
+            }
+            System.out.println(i);
+            i++;
+        }
+
+
+
+
+
+//        CONTINUE KEYWORD:
+        int j = 0;
+        while (j < 10) {
+            j++;
+            if (j == 6) {
+                continue;
+            }
+            System.out.println(j);
+        }
+
 
 
 
