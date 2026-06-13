@@ -89,11 +89,24 @@ public class Aj_Pattern_basic_level {
 
 //  FLOYD'S TRAINGLE:
         System.out.println("FLOYD'S TRAINGLE:");
-        int num = 1;
+        int n2 = 1;
         for(int i = 1; i <= 5; i++) {
             for(int j = 1; j <= i; j++) {
-                System.out.print(num + " ");
-                num++;
+                System.out.print(n2 + " ");
+                n2++;
+            }
+            System.out.println();
+        }
+
+
+//  REVERSE ALPHABET TRAINGLE:
+        System.out.println("REVERSE ALPHABET TRAINGLE:");
+        int n3 = 5;
+        for(int row = 1; row<=n3; row++){
+            char val= 'E';
+            for(int col=1; col<=row; col++){
+                System.out.print(val);
+                val--;
             }
             System.out.println();
         }
