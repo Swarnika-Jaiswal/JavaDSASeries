@@ -97,6 +97,8 @@ public class Aj_Pattern_basic_level {
             }
             System.out.println();
         }
+        System.out.println();
+        System.out.println();
 
 
 //  REVERSE ALPHABET TRAINGLE:
