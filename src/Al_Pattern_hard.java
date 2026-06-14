@@ -141,6 +141,41 @@ public class Al_Pattern_hard {
         System.out.println();
 
 
+//     X   PATTERN:
+        System.out.println("X PATTERN:");
+        int n5=5;
+//        upper half
+        for(int row=1; row<=n5; row++){
+            for(int col=1; col<=row-1; col++){
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            int spaces=2 * (n5 - row) - 1;
+            if(spaces>0) {
+                for (int col = 1; col <=spaces; col++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+//           Lower Half
+        for(int row=n5-1; row>=1; row--){
+            for(int col=1; col<=row; col++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            int spaces=2*(n5-row)-1;
+            if(spaces>0) {
+                for (int col = 1; col <= spaces; col++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
 
 
 
