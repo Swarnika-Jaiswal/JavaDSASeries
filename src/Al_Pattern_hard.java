@@ -76,6 +76,75 @@ public class Al_Pattern_hard {
 
 
 
+//  BUTTERFLY PATTERN:
+        System.out.println("BUTTERFLY PATTERN;");
+//        upper half
+        int n3=4;
+        for(int row=1; row<=n3; row++){
+
+            for(int col=1; col<=row; col++){
+                System.out.print("*");}
+
+                for(int col=1; col<=2*n3-2*row; col++){
+                    System.out.print(" ");
+                }
+                for(int col=1; col<=row; col++){
+                    System.out.print("*");
+                }
+
+            System.out.println();
+        }
+//        lower half
+        for(int row=3; row>=1; row--){
+            for(int col=1; col<=row; col++) {
+                System.out.print("*");
+            }
+
+            for(int col=1; col<=2*n3- 2*row; col++){
+                System.out.print(" ");
+            }
+
+            for(int col=1; col<=row; col++){
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+        System.out.println();
+
+
+
+//  SANDGLASS PATTERN:
+        System.out.println("SANDGLASS PATTERN:");
+        int n4=5;
+        for(int row=1; row<=n4; row++){
+//      upper half
+//            spaces
+            for(int col=1; col<=row-1; col++){
+                System.out.print(" ");
+            }
+//            stars
+            for(int col=1; col<=2*n4-2*row+1; col++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int row=3; row>=0; row--){
+            for(int col=1; col<=row; col++){
+                System.out.print(" ");
+            }
+            for(int col=1; col<=2*n4-(2*row+1); col++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+
+
+
+
+
+
 
 
 
