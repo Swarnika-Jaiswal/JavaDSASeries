@@ -176,6 +176,44 @@ public class Al_Pattern_hard {
 
             System.out.println();
         }
+        System.out.println();
+
+
+//  PASCAL'S PATTERN:
+        System.out.println("PASCAL'S PATTERN:");
+        int n6=5;
+        for(int row=0; row<n6; row++){
+            for(int col=0; col<n6-row-1;col++){
+            System.out.print(" ");}
+            int num=1;
+            for(int col=0; col<=row; col++){
+                System.out.print(num + " ");
+                num=num*(row-col)/(col+1);
+            }
+            System.out.println();
+        }
+        System.out.println();
+
+//  CONCENTRIC NUMBER PATTERN:
+        System.out.println("CONCENTRIC NUMBER PATTERN:");
+        int n7=4;
+        int size = 2*n6-1;
+        for(int row=1; row<=size; row++){
+            for(int col=1; col<=size; col++){
+                int top=row;
+                int left= col;
+                int bottom=size-1-row;
+                int right=size-1-col;
+                int min= Math.min(
+                        Math.min(top, bottom),Math.min(top, bottom));
+                System.out.print((n6-min) + " ");
+
+            }
+            System.out.println();
+        }
+
+
+
 
 
 
