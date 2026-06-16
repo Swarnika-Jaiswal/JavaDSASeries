@@ -94,6 +94,17 @@ public class Bb_arrays2D {
         }
         System.out.println("Max value="+ max);
 
+//    To find minimum value in 2D array:
+        int hrr[][] = {{1,5,9},{3,5,7}};
+        int minval = hrr[0][0];
+        for (int i = 0; i<hrr.length; i++){
+            for (int j=0; j<hrr[i].length; j++){
+                if(hrr[i][j] < minval){
+                    minval = hrr[i][j];
+                }
+            }
+        }
+        System.out.println("Min value="+ minval);
 
 
 
