@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ba_arrays1 {
+public class Ba_arrays1D {
     public static void main(String[]args) {
 //        array declaration
         int arr[];
@@ -21,6 +21,7 @@ public class Ba_arrays1 {
         for(int val : brr){
             System.out.println(val);
         }
+
 //        array input:
         int crr[] = new int[5];
         Scanner sc = new Scanner(System.in);
@@ -46,7 +47,31 @@ public class Ba_arrays1 {
         }
         System.out.println("Total product = "+pro);
 
+//      To find maximum value in an array:
+         int drr[] ={8,2,28,11,6};
+         int n2 = drr.length;
+         int max = drr[0];
+         for(int i=0; i<n2; i++){
+             if(drr[i]>max){
+//                 updated max
+                 max = drr[i];
+             }
+         }
+        System.out.println("Maximum value in an array:"+ max);
 
+
+
+//      To find minimum value in an array:
+        int err[]= {10,-5,0,8,-1};
+        int n3 = err.length;
+        int min = err[0];
+        for(int i = 0; i<n; i++) {
+            if (err[i] < min) {
+//                update min
+                min = err[i];
+            }
+        }
+        System.out.println("The minimum value in an array is:"+ min);
 
 
 }
