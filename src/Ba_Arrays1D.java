@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ba_arrays1D {
+public class Ba_Arrays1D {
     public static void main(String[]args) {
 //        array declaration
         int arr[];

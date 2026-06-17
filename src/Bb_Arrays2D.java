@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bb_arrays2D {
+public class Bb_Arrays2D {
     public static void main(String[] args) {
 //        declaration
         int [][] arr;
