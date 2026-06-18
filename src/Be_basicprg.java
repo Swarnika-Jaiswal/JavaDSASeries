@@ -49,15 +49,26 @@ public class Be_basicprg {
            num = num/10;
         }
         if(orgNum==revNum){
-            System.out.println("Palinrome");
+            System.out.print("Palinrome ");
             return true;
         }
         else{
-            System.out.println("Not Palindrome");
+            System.out.print("Not Palindrome ");
             return false;
         }
 
     }
+
+//    To print whether the given number is prime or not:
+       static  boolean isPrime(int num){
+            for(int i=2; i<num; i++){
+                if(num%i == 0){
+                    return false;
+                }
+
+            }
+        return true;
+       }
 
 
 
@@ -70,7 +81,7 @@ public class Be_basicprg {
         System.out.println("Total sum of the given digits= " + sumOfDigit(num));
         System.out.println("Reversed no= " + reverseDigit(num));
         System.out.println(isPalindrome(121));
-
+        System.out.println(isPrime(13));
 
     }
 }
