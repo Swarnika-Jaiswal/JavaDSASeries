@@ -75,6 +75,19 @@ public class Be_basicprg {
        }
 
 
+//    To find the gcd (greatest common divisor) of the given number
+    static int getGCD(int a, int b){
+        while(b!=0){
+            int olValueOfb = b;
+            b = a%b;
+            a = olValueOfb;
+        }
+        int ans = a;
+        return ans;
+    }
+
+
+
 
 
 
@@ -86,6 +99,6 @@ public class Be_basicprg {
         System.out.println("Reversed no= " + reverseDigit(num));
         System.out.println(isPalindrome(121));
         System.out.println(isPrime(13));
-
+        System.out.println(getGCD(18,12));
     }
 }
