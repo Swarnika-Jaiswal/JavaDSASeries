@@ -7,6 +7,7 @@ public class Be_basicprg {
             num = num/10;
         }
     }
+
 //  To count the total number of digits in the given number:
     static int countDigit(int num){
         int count = 0;
@@ -28,6 +29,7 @@ public class Be_basicprg {
         return sum;
     }
 
+
 //  To print the reverse of the given number:
      static int reverseDigit(int num){
         int revNum = 0;
@@ -38,6 +40,7 @@ public class Be_basicprg {
        }
        return revNum;
      }
+
 
 //   To print true if the given number is palindrome i.e original number == reversed number.
     static boolean isPalindrome(int num){
@@ -58,6 +61,7 @@ public class Be_basicprg {
         }
 
     }
+
 
 //    To print whether the given number is prime or not:
        static  boolean isPrime(int num){
