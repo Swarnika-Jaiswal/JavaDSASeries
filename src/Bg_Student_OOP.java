@@ -5,6 +5,12 @@ public class Bg_Student_OOP {
     public String name;
     public int nos;
 
+//Constructor:
+    public Bg_Student_OOP(){
+        System.out.println("Student Default ctor called");
+    }
+
+
 
 // Methods
 public void study(){
