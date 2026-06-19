@@ -19,6 +19,15 @@ public class Bg_Student_OOP {
         this.nos = nos;
 
     }
+   // 3.Copy Constructor
+    public Bg_Student_OOP(Bg_Student_OOP srcobj){ // scrobj -> A
+        System.out.println("Student Copy constructor called!");
+        this.id = srcobj.id;
+        this.age = srcobj.age;
+        this.name = srcobj.name;
+        this.nos = srcobj.nos;
+
+    }
 
 
 

@@ -32,16 +32,24 @@ public class Bf_OOPs {
        A.sleep();
     */
 
-//       Parameterized Constructor:
+//  Parameterized Constructor:
        Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4);
-       System.out.println(A.id);
-       System.out.println(A.age);
-       System.out.println(A.name);
-       System.out.println(A.nos);
+//       System.out.println(A.id);
+//       System.out.println(A.age);
+//       System.out.println(A.name);
+//       System.out.println(A.nos);
 
        A.bunk();
        A.study();
        A.sleep();
+
+//  Copy Constructor
+       Bg_Student_OOP B = new Bg_Student_OOP(A);
+       System.out.println(B.id);
+       System.out.println(B.age);
+       System.out.println(B.name);
+       System.out.println(B.nos);
+       B.sleep();
 
 
 
