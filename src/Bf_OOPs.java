@@ -17,7 +17,7 @@ public class Bf_OOPs {
    public static void main(String[] args) throws Exception {
 //        System.out.println("Hello World!");
 //       Default ctor
-       Bg_Student_OOP A = new Bg_Student_OOP();
+     /*  Bg_Student_OOP A = new Bg_Student_OOP();
        A.id = 1;
        A.age = 15;
        A.name = "Rahul";
@@ -30,6 +30,21 @@ public class Bf_OOPs {
        A.bunk();
        A.study();
        A.sleep();
+    */
+
+//       Parameterized Constructor:
+       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4);
+       System.out.println(A.id);
+       System.out.println(A.age);
+       System.out.println(A.name);
+       System.out.println(A.nos);
+
+       A.bunk();
+       A.study();
+       A.sleep();
+
+
+
 
 
     }
