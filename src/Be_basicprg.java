@@ -77,6 +77,7 @@ public class Be_basicprg {
 
 //    To find the gcd (greatest common divisor) of the given number
     static int getGCD(int a, int b){
+//        gcd(a,b) = gcd(b,b%a)
         while(b!=0){
             int olValueOfb = b;
             b = a%b;
@@ -85,6 +86,8 @@ public class Be_basicprg {
         int ans = a;
         return ans;
     }
+
+//  To print the
 
 
 
