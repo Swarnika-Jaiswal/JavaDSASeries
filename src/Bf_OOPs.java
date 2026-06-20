@@ -16,8 +16,9 @@ import java.rmi.StubNotFoundException;
 public class Bf_OOPs {
    public static void main(String[] args) throws Exception {
 //        System.out.println("Hello World!");
-//       Default ctor
-     /*  Bg_Student_OOP A = new Bg_Student_OOP();
+//       Default Constructor:
+
+       /*  Bg_Student_OOP A = new Bg_Student_OOP();
        A.id = 1;
        A.age = 15;
        A.name = "Rahul";
@@ -33,29 +34,44 @@ public class Bf_OOPs {
     */
 
 //  Parameterized Constructor:
-       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4);
+//       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4);
 //       System.out.println(A.id);
 //       System.out.println(A.age);
 //       System.out.println(A.name);
 //       System.out.println(A.nos);
 
-       A.bunk();
-       A.study();
-       A.sleep();
+//       A.bunk();
+//       A.study();
+//       A.sleep();
 
 //  Copy Constructor
-       Bg_Student_OOP B = new Bg_Student_OOP(A);
-       System.out.println(B.id);
-       System.out.println(B.age);
-       System.out.println(B.name);
-       System.out.println(B.nos);
-       B.sleep();
+//       Bg_Student_OOP B = new Bg_Student_OOP(A);
+//       System.out.println(B.id);
+//       System.out.println(B.age);
+//       System.out.println(B.name);
+//       System.out.println(B.nos);
+//       B.sleep();
+
+       //  Encapsulation:
+       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4,"Tina" );
+//     System.out.println(A.getName());
+
+       System.out.println(A.getAge());
+
+       A.setAge(57);
+
+       System.out.println(A.getAge());
+
+//       A.bunk();
+//       A.study();
+//       A.sleep();
 
 
 
 
 
-    }
+
+   }
 
 
 }

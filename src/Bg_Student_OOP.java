@@ -1,12 +1,24 @@
 public class Bg_Student_OOP {
 // Attributes
-    public int id;
-    public int age;
-    public String name;
-    public int nos;
+    private int id;
+    private int age;
+    private String name;
+    private int nos;
     private String gf;
 
-//Constructor:
+    public String getName() {
+      return this.name;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setAge(int a) {
+        this.age = a;
+    }
+
+    //Constructor:
    //1.Default Constructor // attr -> garbage
     public Bg_Student_OOP(){
         System.out.println("Student Default constructor called!");
