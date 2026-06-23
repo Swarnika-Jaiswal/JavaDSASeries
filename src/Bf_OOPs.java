@@ -52,15 +52,16 @@ public class Bf_OOPs {
 //       System.out.println(B.nos);
 //       B.sleep();
 
+
        //  Encapsulation:
-       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4,"Tina" );
-//     System.out.println(A.getName());
-
-       System.out.println(A.getAge());
-
-       A.setAge(57);
-
-       System.out.println(A.getAge());
+//       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4,"Tina" );
+////     System.out.println(A.getName());
+//
+//       System.out.println(A.getAge());
+//
+//       A.setAge(57);
+//
+//       System.out.println(A.getAge());
 
 //       A.bunk();
 //       A.study();
