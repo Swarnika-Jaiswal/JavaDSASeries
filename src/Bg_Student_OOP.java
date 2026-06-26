@@ -19,9 +19,9 @@ public class Bg_Student_OOP {
     }
 
     //Constructor:
-   //1.Default Constructor // attr -> garbage
+        //1.Default Constructor // attr -> garbage
     public Bg_Student_OOP(){
-        System.out.println("Student Default constructor called!");
+//            System.out.println("Student Default constructor called!");
     }
    //2.Parameterized Constructor
     public Bg_Student_OOP(int id, int age, String name, int nos, String gf){
