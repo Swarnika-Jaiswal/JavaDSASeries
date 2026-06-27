@@ -41,7 +41,7 @@ public class Bf_OOPs {
 //       System.out.println(A.age);
 //       System.out.println(A.name);
 //       System.out.println(A.nos);
-
+//
 //       A.bunk();
 //       A.study();
 //       A.sleep();
