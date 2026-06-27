@@ -101,7 +101,7 @@ public class Aj_Pattern_basic_level {
         System.out.println();
 
 
-//  REVERSE ALPHABET TRAINGLE:
+////  REVERSE ALPHABET TRAINGLE:
         System.out.println("REVERSE ALPHABET TRAINGLE:");
         int n3 = 5;
         for(int row = 1; row<=n3; row++){
