@@ -10,7 +10,7 @@ public class Bi_Car extends Bh_Vehicle {
         super.startEngine();
     }
 
-    public void started()
+    public void startAC()
     {
         System.out.println("AC started of " + name );
     }
