@@ -1,12 +1,10 @@
-import java.sql.SQLOutput;
-
-public class Bi_Vehicle {
+public class Bh_Vehicle {
 
         public String name;
         public String model;
         public int noOfTyres;
 
-        Bi_Vehicle(String name, String model, int noOfTyres){
+        Bh_Vehicle(String name, String model, int noOfTyres){
             this.name =  name;
             this.model = model;
             this.noOfTyres = noOfTyres;
