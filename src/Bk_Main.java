@@ -8,7 +8,7 @@ public class Bk_Main {
         Bj_MotorCycle m = new Bj_MotorCycle("Splender", "XLine", 2, "U", "Soft");
         m.startEngine();
         m.wheelie();
-        m.stopEngine();
+//        m.stopEngine();
     }
 
 }
