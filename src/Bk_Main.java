@@ -4,11 +4,12 @@ public class Bk_Main {
         c.startEngine();
         c.startAC();
         c.stopEngine();
+        System.out.println(c.name);
 
         Bj_MotorCycle m = new Bj_MotorCycle("Splender", "XLine", 2, "U", "Soft");
         m.startEngine();
         m.wheelie();
-//        m.stopEngine();
+        m.stopEngine();
     }
 
 }
