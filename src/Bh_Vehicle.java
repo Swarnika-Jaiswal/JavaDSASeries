@@ -4,6 +4,11 @@ public class Bh_Vehicle {
         public String model;
         public int noOfTyres;
 
+        public Bh_Vehicle(){
+        this.name =  "";
+        this.model = "";
+        this.noOfTyres = -1;}
+
         Bh_Vehicle(String name, String model, int noOfTyres){
             this.name =  name;
             this.model = model;
