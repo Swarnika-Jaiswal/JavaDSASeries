@@ -1,4 +1,4 @@
-// CONDITIONALS IN JAVA:
+package Basic_Concepts;// CONDITIONALS IN JAVA:
 /*
 >if statement
 >if-else statement

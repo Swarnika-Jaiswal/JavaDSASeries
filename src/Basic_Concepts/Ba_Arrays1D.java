@@ -1,3 +1,5 @@
+package Basic_Concepts;
+
 import java.util.Scanner;
 public class Ba_Arrays1D {
     public static void main(String[]args) {

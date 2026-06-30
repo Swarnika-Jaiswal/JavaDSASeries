@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Basic_Concepts;
+
 import java.util.Scanner;
 
 public class Bc_Strings {

@@ -1,3 +1,5 @@
+package Basic_Concepts;
+
 public class Be_basicprg {
 //  To print the digits of the given number:
     static void printDigits(int num){

@@ -1,4 +1,4 @@
-//JAVA VARIABLES
+package Basic_Concepts;//JAVA VARIABLES
 /*
 Defination: A variable is a named memory location used to store data.
 

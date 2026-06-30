@@ -1,3 +1,5 @@
+package Transport;
+
 public class Bi_Car extends Bh_Vehicle {
 
     public int noOfDoors;

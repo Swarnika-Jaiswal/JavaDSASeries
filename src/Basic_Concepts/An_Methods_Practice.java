@@ -1,3 +1,5 @@
+package Basic_Concepts;
+
 public class An_Methods_Practice {
     //    1.Create a method PRINTWELCOMEMESSAGE() that prints a greeting.
     static void PRINTWELCOMEMESSAGE() {

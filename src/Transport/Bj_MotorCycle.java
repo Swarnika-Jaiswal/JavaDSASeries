@@ -1,3 +1,5 @@
+package Transport;
+
 public class Bj_MotorCycle extends Bh_Vehicle {
 
     public String handelBarStyle;

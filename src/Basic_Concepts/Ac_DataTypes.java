@@ -1,3 +1,5 @@
+package Basic_Concepts;
+
 public class Ac_DataTypes {
     public static void main(String[] args){
 //        NUMERIC: short, byte, int, long
