@@ -108,7 +108,7 @@ public class Ak_Pattern_medium_level {
                     System.out.print(" ");
                 }
 //                part2
-                if(row==1 || row==n3){
+                if(row==1 || row==5){
                     for(int col=1; col<=2*row-1; col++){
                         System.out.print("*");
                     }
@@ -138,7 +138,7 @@ public class Ak_Pattern_medium_level {
         int n4=5;
         for(int row=1; row<=n4; row++){
             for(int col=1; col<=n4; col++){
-               if(row==1 || row==n4){
+               if(row==1 || row==5){
                    System.out.print("*");
                }
                else{
@@ -220,7 +220,7 @@ public class Ak_Pattern_medium_level {
 
 
 //  CHARACTER PYRAMID 1:
-        System.out.println("CHARACTER PYRAMID:");
+        System.out.println("CHARACTER PYRAMID 1:");
         int n6=5;
         char alpha='A';
         for(int row=1; row<=n6; row++){
@@ -241,7 +241,7 @@ public class Ak_Pattern_medium_level {
 
 
 //  CHARACTER PYRAMID 2:
-        System.out.println("CHARACTER PYRAMID:");
+        System.out.println("CHARACTER PYRAMID 2:");
         int n7=5;
         for(int row=1; row<=n7; row++){
 //            spaces
