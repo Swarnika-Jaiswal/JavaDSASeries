@@ -39,6 +39,23 @@ public class Am_Methods {
             float div = x/y;
             return div;
         }
+
+//   Method Overloading:
+//   methods with same name but with:
+//             different no of parameters
+//                     or
+//             different datatypes of parameters.
+    static int square(int n){
+            int sq = n*n;
+            return sq;
+    }
+    static int square(int n, int m){
+        int sq1 = n*n;
+        int sq2 = m*m;
+        return sq1;
+
+    }
+
 // program execution point is: main
         public static void main(String[] args){
             System.out.println("hi");
@@ -49,6 +66,8 @@ public class Am_Methods {
         System.out.println("subtraction = "+sub());
         mulipy(2,8);
         System.out.println("division = "+ div());
+            System.out.println("Square = " + square(2));
+            System.out.println("Square = "+ square(3,5));
         }
 
     }
