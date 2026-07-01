@@ -18,6 +18,11 @@ public class Bc_Strings {
         System.out.println(name);
 
 //        Equals:
+        String name1 = "Swar";
+        String name2 = "SWAR";
+        System.out.println(name1 == name2);
+        System.out.println(name1.equals(name2));
+        System.out.println(name1.equalsIgnoreCase(name2));
 
 
 
