@@ -11,7 +11,7 @@ public class Calculator {
         return a+b+c;
     }
 
-    float add(int a, int b , float c){
+    double add(int a, int b , double c){
         return a+b+c;
     }
 
