@@ -1,4 +1,4 @@
-package Transport;
+package Inheritance;
 
 public class Bi_Car extends Bh_Vehicle {
 

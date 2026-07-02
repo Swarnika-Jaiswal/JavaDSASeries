@@ -77,7 +77,7 @@ public class Bc_Strings {
 
         String s7 = " Rana is a lover";
         System.out.println(s7.startsWith("Rana"));
-        System.out.println(s7.startsWith("Rana is"));
+        System.out.println(s7.startsWith(" Rana is"));
         System.out.println(s7.endsWith("lover"));
         System.out.println(s7.endsWith("a lover"));
 

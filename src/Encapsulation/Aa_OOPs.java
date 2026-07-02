@@ -1,4 +1,4 @@
-package Basic_Concepts;//OOP(Object Oriented Programming):
+package Encapsulation;//OOP(Object Oriented Programming):
 /*
 1.It is used to solve real world problems.
 2.It divides the problems into pieces of objects that can communicate with each other.
@@ -11,7 +11,7 @@ package Basic_Concepts;//OOP(Object Oriented Programming):
 // OBJECT: instance of the class.
 
 
-public class Bf_OOPs {
+public class Aa_OOPs {
    public static void main(String[] args) throws Exception {
 //        System.out.println("Hello World!");
 //       Default Constructor:
@@ -54,7 +54,7 @@ public class Bf_OOPs {
 
 
        //  Encapsulation:
-       Bg_Student_OOP A = new Bg_Student_OOP(1, 15,"Rahul",4,"Tina" );
+       Ab_Student_OOP A = new Ab_Student_OOP(1, 15,"Rahul",4,"Tina" );
 //     System.out.println(A.getName());
 
        System.out.println(A.getAge());

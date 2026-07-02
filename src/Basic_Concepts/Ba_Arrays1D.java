@@ -28,7 +28,7 @@ public class Ba_Arrays1D {
         int crr[] = new int[5];
         Scanner sc = new Scanner(System.in);
         int n1 = crr.length;
-        for(int i=0; i<n1; i++){
+        for(int i=0;  i<n1; i++){
             System.out.println("Enter input at"+crr[i]+"index:");
             crr[i] = sc.nextInt();
         }

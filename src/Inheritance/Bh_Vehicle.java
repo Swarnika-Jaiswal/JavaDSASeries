@@ -1,4 +1,4 @@
-package Transport;
+package Inheritance;
 
 public class Bh_Vehicle {
 

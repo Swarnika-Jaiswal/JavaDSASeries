@@ -1,6 +1,6 @@
-package Basic_Concepts;
+package Encapsulation;
 
-public class Bg_Student_OOP {
+public class Ab_Student_OOP {
 // Attributes
     private int id;
     private int age;
@@ -22,11 +22,11 @@ public class Bg_Student_OOP {
 
     //Constructor:
         //1.Default Constructor // attr -> garbage
-    public Bg_Student_OOP(){
+    public Ab_Student_OOP(){
 //            System.out.println("Student Default constructor called!");
     }
    //2.Parameterized Constructor
-    public Bg_Student_OOP(int id, int age, String name, int nos, String gf){
+    public Ab_Student_OOP(int id, int age, String name, int nos, String gf){
         System.out.println("Student Default constructor called!");
         this.id = id;
         this.age = age;
@@ -36,7 +36,7 @@ public class Bg_Student_OOP {
 
     }
    // 3.Copy Constructor
-    public Bg_Student_OOP(Bg_Student_OOP srcobj){ // scrobj -> A
+    public Ab_Student_OOP(Ab_Student_OOP srcobj){ // scrobj -> A
         System.out.println("Student Copy constructor called!");
         this.id = srcobj.id;
         this.age = srcobj.age;

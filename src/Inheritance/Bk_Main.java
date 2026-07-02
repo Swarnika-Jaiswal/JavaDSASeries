@@ -1,4 +1,4 @@
-package Transport;
+package Inheritance;
 
 public class Bk_Main {
     public static void main(String[] args) {
