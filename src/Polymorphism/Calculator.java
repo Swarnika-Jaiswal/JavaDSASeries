@@ -2,6 +2,7 @@ package Polymorphism;
 
 public class Calculator {
 
+//    Compile time Polymorphism:
 //    Method Overloading
     int add (int a, int b){
         return a+b;
