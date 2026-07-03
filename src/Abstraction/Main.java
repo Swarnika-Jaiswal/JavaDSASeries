@@ -10,11 +10,11 @@ abstract class Bird{
 }
 
 class Sparrow extends Bird {
-
+    @Override
     void fly(){
-        System.out.println("Sparrow flyuing");
+        System.out.println("Sparrow flying");
     }
-
+    @Override
     void eat(){
         System.out.println("Sparrow eating");
     }
@@ -22,11 +22,11 @@ class Sparrow extends Bird {
 }
 
 class Crow extends Bird {
-
+   @Override
     void fly(){
-        System.out.println("Crow flyuing");
+        System.out.println("Crow flying");
     }
-
+   @Override
     void eat(){
         System.out.println("Crow eating");
     }
@@ -34,14 +34,22 @@ class Crow extends Bird {
 }
 
 public class Main {
+
+
+    public static void doBirdStuff(Bird b){
+        b.eat();
+        b.fly();
+    }
+
+
     public static void main(String[] args) {
         Bird b = new Sparrow();
         b.eat();
         b.fly();
 
-        Bird c = new Crow();
-        c.fly();
-        c.eat();
+
+//    Another way without making an object(just like Upcasting)
+        doBirdStuff(new Crow());
     }
 
 }
