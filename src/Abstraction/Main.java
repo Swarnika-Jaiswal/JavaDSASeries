@@ -6,6 +6,10 @@ abstract class Bird{
 
     abstract void eat();
 
+    public void sleep(){
+        System.out.println("Bird Sleeping....");
+    }
+
 
 }
 
@@ -39,6 +43,7 @@ public class Main {
     public static void doBirdStuff(Bird b){
         b.eat();
         b.fly();
+        b.sleep();
     }
 
 
@@ -46,6 +51,7 @@ public class Main {
         Bird b = new Sparrow();
         b.eat();
         b.fly();
+        b.sleep();
 
 
 //    Another way without making an object(just like Upcasting)
