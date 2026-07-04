@@ -2,10 +2,7 @@ package CollectionsFramework;
 
 import com.sun.jdi.PathSearchingVirtualMachine;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -72,6 +69,19 @@ public class Main {
             System.out.println(obj);
         }
 
+
+//     contains():
+        System.out.println(list2.contains(3));
+        System.out.println(list2.contains(4));
+
+//     sort():
+        List<Integer> list3 = new ArrayList<>();
+        list3.add(6);
+        list3.add(23);
+        list3.add(5);
+        list3.add(44);
+        Collections.sort(list3);
+        System.out.println("Elements in list after sorting: " + list3);
 
 
 
