@@ -9,9 +9,9 @@ public class Main {
 
 
 //    ArrayList -> concrete class
-//    ArrayList<Integer> arr = new ArrayList<>();
+    ArrayList<Integer> list = new ArrayList<>();
 //    Collection<Integer> collection = new ArrayList<>();
-      List<Integer> list = new ArrayList<>();
+//      List<Integer> list = new ArrayList<>();
 
 //      add values in list:
         list.add(10);
@@ -82,6 +82,15 @@ public class Main {
         list3.add(44);
         Collections.sort(list3);
         System.out.println("Elements in list after sorting: " + list3);
+
+
+        ArrayList<Integer> newList = (ArrayList<Integer>)list.clone();
+      System.out.println("Printing entire elements from list after cloning: " + newList);
+      ArrayList<Integer> marks = new ArrayList<>();
+      marks.ensureCapacity(100);
+      System.out.println(marks);
+
+
 
 
 
