@@ -2,7 +2,7 @@ package AAe_CollectionsFramework;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Aca_LinkedList {
+public class Cd_LinkedList {
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
 //        add()

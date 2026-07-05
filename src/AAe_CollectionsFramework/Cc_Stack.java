@@ -3,7 +3,7 @@ package AAe_CollectionsFramework;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class Acb_Stack {
+public class Cc_Stack {
     public static void main(String[] args) {
         Deque<Integer> stack = new ArrayDeque<>();
 

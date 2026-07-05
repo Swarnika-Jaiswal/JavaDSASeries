@@ -1,10 +1,9 @@
 package AAe_CollectionsFramework;
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Queue;
 
 
-public class Ad_ArrayDeque {
+public class Cb_ArrayDeque {
     public static void main(String[] args) {
         Deque<Integer> q = new ArrayDeque<>();
 //        add()
