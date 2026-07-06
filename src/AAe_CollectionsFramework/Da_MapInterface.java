@@ -22,6 +22,14 @@ public class Da_MapInterface {
         m.putAll(mapping);
         System.out.println("After: "+m);
 
+//        deletion
+        m.remove("en");
+        System.out.println(m);
+
+        System.out.println(m.size());
+        m.clear();
+        System.out.println(m.size());
+
 
 
 
