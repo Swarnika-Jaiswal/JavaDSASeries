@@ -38,14 +38,74 @@ public class ABa_ArraysProblem {
 
 
 
-  static boolean findTarget(int arr[], int target){
-      for (int i=0; i<arr.length; i++){
-          if(arr[i] == target){
+  static boolean findTarget(int arr[], int target) {
+      for (int i = 0; i < arr.length; i++) {
+          if (arr[i] == target) {
               return true;
           }
       }
       return false;
+
   }
+
+
+      static int maxElement ( int arr[]){
+          int max = arr[0];
+          for(int i = 0; i< arr.length; i++){
+              if (arr[i] > max) {
+                  max = arr[i];
+              }
+
+          }
+          return max;
+      }
+
+
+
+      static int[] getPosNegSum(int arr[]){
+      int negSum = 0;
+      int posSum = 0;
+      for (int i = 0; i<arr.length; i++){
+          if (arr[i] < 0){
+              negSum = negSum + arr[i];
+          }
+          else{
+              posSum = posSum + arr[i];
+          }
+      }
+      int res[] = {posSum,negSum};
+      return res;
+      }
+
+
+
+      static int[] getOneZeroCount(int arr[]){
+      int zeroCount = 0;
+      int oneCount = 0;
+      for (int i = 0 ; i< arr.length; i++){
+          if (arr[i] == 0){
+              zeroCount++;
+          } else if (arr[i] == 1) {
+              oneCount++;
+          }
+
+      }
+      int result[] = {zeroCount, oneCount};
+      return result;
+      }
+
+
+
+
+      static int getUnsortedArraay(int arr[]){
+      for (int i = 0 ; i< arr.length; i++){
+          if (arr[i+1] <= arr[i]){
+              return arr[i+1];
+          }
+
+          }
+      return -1;
+      }
 
 
 
@@ -70,5 +130,21 @@ public class ABa_ArraysProblem {
         System.out.println(findTarget(arr,40));
 
 
+        System.out.println(maxElement(arr));
+
+        int brr[] = {2,-3,-5,-7,9};
+        int res[] = getPosNegSum(brr);
+        System.out.println("Posititve Sum: " + res[0]);
+        System.out.println("Negative Sum: " + res[1]);
+
+
+        int crr[] = { 1, 0 , 0 , 1 , 0, 1, 1, 1};
+        int count[] = getOneZeroCount(crr);
+        System.out.println("ZeroCount= " + count[0]);
+        System.out.println("OneCount= " + count[1]);
+
+
+        int drr[] = {1,2,7,5,8,6};
+        System.out.println(getUnsortedArraay(drr));
     }
 }
