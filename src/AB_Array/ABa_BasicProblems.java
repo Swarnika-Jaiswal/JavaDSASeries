@@ -1,6 +1,6 @@
 package AB_Array;
 
-public class ABa_ArraysProblem {
+public class ABa_BasicProblems {
 
 
 // 1. Find the average of array elements:
