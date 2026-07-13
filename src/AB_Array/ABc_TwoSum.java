@@ -1,6 +1,6 @@
 package AB_Array;
 
-public class ABc_Array {
+public class ABc_TwoSum {
     public static int[] twoSum(int[] nums, int target){
         int n=nums.length;
         for (int i=0; i<n-1; i++){
