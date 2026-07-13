@@ -5,11 +5,11 @@ import java.util.HashMap;
 public class ABb_ArrayManipulationProblem {
 
 
-// Reverse an array using two pointer
-// Shift array elements by 1 position
-// Print extreme elements in an alternate manner
-// Identify elements with highest and lowest frequency
-// Find the mode of the array
+// 1. Reverse an array using two pointer
+// 2. Shift array elements by 1 position
+// 3. Print extreme elements in an alternate manner
+// 4. Identify elements with highest and lowest frequency
+// 5. Find the mode of the array
 
 
 
@@ -141,6 +141,7 @@ public class ABb_ArrayManipulationProblem {
         int arr[] = {1,2,3,4,5};
 //        reverseArray(arr);
 //        shiftBy1(arr);
+
         printAlternate(arr);
         System.out.println();
 
@@ -148,6 +149,7 @@ public class ABb_ArrayManipulationProblem {
         int ans = getMode(brr);
         System.out.print("Mode is "+ans);
         System.out.println();
+
         int ans1[] = getHighestLowestFreqElement(brr);
         System.out.println("Highest Frequency Elements is " + ans1[0]);
         System.out.println("Lowest Frequency Elements is " + ans1[1]);
